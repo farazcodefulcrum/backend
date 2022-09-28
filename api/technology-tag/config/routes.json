@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/technology-tag",
+      "handler": "technology-tag.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/technology-tag",
+      "handler": "technology-tag.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/technology-tag",
+      "handler": "technology-tag.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

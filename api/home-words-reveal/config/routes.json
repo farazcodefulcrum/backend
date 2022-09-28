@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-words-reveal",
+      "handler": "home-words-reveal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-words-reveal",
+      "handler": "home-words-reveal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-words-reveal",
+      "handler": "home-words-reveal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

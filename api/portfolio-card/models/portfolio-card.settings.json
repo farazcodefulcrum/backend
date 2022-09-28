@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_cards",
+  "info": {
+    "name": "PortfolioCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CardHeading": {
+      "type": "string"
+    },
+    "CardText": {
+      "type": "string"
+    },
+    "CardIndustry": {
+      "type": "json"
+    },
+    "CardTech": {
+      "type": "json"
+    },
+    "ClassName": {
+      "type": "string"
+    },
+    "ColumnSide": {
+      "type": "string"
+    },
+    "NavLink": {
+      "type": "string"
+    },
+    "Img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "BgImg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

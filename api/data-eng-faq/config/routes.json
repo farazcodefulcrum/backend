@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/data-eng-faqs",
+      "handler": "data-eng-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-eng-faqs/count",
+      "handler": "data-eng-faq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-eng-faqs/:id",
+      "handler": "data-eng-faq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/data-eng-faqs",
+      "handler": "data-eng-faq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/data-eng-faqs/:id",
+      "handler": "data-eng-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/data-eng-faqs/:id",
+      "handler": "data-eng-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_sliders",
+  "info": {
+    "name": "ImageSlider",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardHeading": {
+      "type": "string"
+    },
+    "cardText": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

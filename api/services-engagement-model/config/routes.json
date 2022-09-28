@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/services-engagement-models",
+      "handler": "services-engagement-model.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-engagement-models/count",
+      "handler": "services-engagement-model.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-engagement-models/:id",
+      "handler": "services-engagement-model.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/services-engagement-models",
+      "handler": "services-engagement-model.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/services-engagement-models/:id",
+      "handler": "services-engagement-model.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/services-engagement-models/:id",
+      "handler": "services-engagement-model.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

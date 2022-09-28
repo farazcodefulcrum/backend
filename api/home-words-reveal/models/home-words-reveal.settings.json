@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_words_reveals",
+  "info": {
+    "name": "HomeWordsReveal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Words": {
+      "type": "json"
+    }
+  }
+}

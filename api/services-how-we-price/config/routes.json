@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/services-how-we-prices",
+      "handler": "services-how-we-price.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-how-we-prices/count",
+      "handler": "services-how-we-price.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-how-we-prices/:id",
+      "handler": "services-how-we-price.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/services-how-we-prices",
+      "handler": "services-how-we-price.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/services-how-we-prices/:id",
+      "handler": "services-how-we-price.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/services-how-we-prices/:id",
+      "handler": "services-how-we-price.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

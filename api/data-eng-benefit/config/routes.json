@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/data-eng-benefits",
+      "handler": "data-eng-benefit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-eng-benefits/count",
+      "handler": "data-eng-benefit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/data-eng-benefits/:id",
+      "handler": "data-eng-benefit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/data-eng-benefits",
+      "handler": "data-eng-benefit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/data-eng-benefits/:id",
+      "handler": "data-eng-benefit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/data-eng-benefits/:id",
+      "handler": "data-eng-benefit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

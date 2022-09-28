@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_services_card_cards",
+  "info": {
+    "name": " Card",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "NavLink": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_strategy_what_we_covers",
+  "info": {
+    "name": "ProductStrategyWhatWeCover"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "ContentPoints": {
+      "type": "json"
+    }
+  }
+}

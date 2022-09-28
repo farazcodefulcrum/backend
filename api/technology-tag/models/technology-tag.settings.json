@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "technology_tags",
+  "info": {
+    "name": "TechnologyTag",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tags": {
+      "type": "json"
+    }
+  }
+}

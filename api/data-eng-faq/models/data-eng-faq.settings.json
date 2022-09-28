@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_eng_faqs",
+  "info": {
+    "name": "DataEngFAQ"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.fa-qs"
+    }
+  }
+}

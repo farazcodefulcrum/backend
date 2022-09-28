@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_strategy_accordians",
+  "info": {
+    "name": "ProductStrategyAccordian"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "ContentPoint": {
+      "type": "json"
+    }
+  }
+}

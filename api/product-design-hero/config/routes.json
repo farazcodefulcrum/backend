@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-design-heroes",
+      "handler": "product-design-hero.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-heroes/count",
+      "handler": "product-design-hero.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-heroes/:id",
+      "handler": "product-design-hero.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-design-heroes",
+      "handler": "product-design-hero.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-design-heroes/:id",
+      "handler": "product-design-hero.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-design-heroes/:id",
+      "handler": "product-design-hero.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

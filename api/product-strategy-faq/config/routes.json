@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-strategy-faqs",
+      "handler": "product-strategy-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-faqs/count",
+      "handler": "product-strategy-faq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-faqs/:id",
+      "handler": "product-strategy-faq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-strategy-faqs",
+      "handler": "product-strategy-faq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-strategy-faqs/:id",
+      "handler": "product-strategy-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-strategy-faqs/:id",
+      "handler": "product-strategy-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

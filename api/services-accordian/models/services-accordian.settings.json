@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_accordians",
+  "info": {
+    "name": "ServicesAccordian"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "AccordianData": {
+      "type": "json"
+    },
+    "NavLink": {
+      "type": "string"
+    },
+    "Icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Header": {
+      "type": "json"
+    }
+  }
+}

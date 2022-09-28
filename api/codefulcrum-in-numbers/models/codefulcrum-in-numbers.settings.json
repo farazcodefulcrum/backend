@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "codefulcrum_in_numbers",
+  "info": {
+    "name": "CodefulcrumInNumbers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "ProjectsData": {
+      "type": "json"
+    }
+  }
+}

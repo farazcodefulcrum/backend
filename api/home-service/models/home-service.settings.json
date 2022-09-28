@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_services",
+  "info": {
+    "name": "HomeService",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "CardData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-card.card"
+    }
+  }
+}

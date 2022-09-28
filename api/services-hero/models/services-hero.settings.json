@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_heroes",
+  "info": {
+    "name": "ServicesHero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    }
+  }
+}

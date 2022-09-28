@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-strategy-heroes",
+      "handler": "product-strategy-hero.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-heroes/count",
+      "handler": "product-strategy-hero.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-heroes/:id",
+      "handler": "product-strategy-hero.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-strategy-heroes",
+      "handler": "product-strategy-hero.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-strategy-heroes/:id",
+      "handler": "product-strategy-hero.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-strategy-heroes/:id",
+      "handler": "product-strategy-hero.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

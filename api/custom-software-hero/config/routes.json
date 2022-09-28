@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/custom-software-heroes",
+      "handler": "custom-software-hero.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-heroes/count",
+      "handler": "custom-software-hero.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-heroes/:id",
+      "handler": "custom-software-hero.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/custom-software-heroes",
+      "handler": "custom-software-hero.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/custom-software-heroes/:id",
+      "handler": "custom-software-hero.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/custom-software-heroes/:id",
+      "handler": "custom-software-hero.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

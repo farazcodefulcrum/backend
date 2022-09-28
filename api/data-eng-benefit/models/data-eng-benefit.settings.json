@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_eng_benefits",
+  "info": {
+    "name": "DataEngBenefit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "json"
+    }
+  }
+}

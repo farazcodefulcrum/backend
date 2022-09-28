@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/services-accordians",
+      "handler": "services-accordian.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-accordians/count",
+      "handler": "services-accordian.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/services-accordians/:id",
+      "handler": "services-accordian.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/services-accordians",
+      "handler": "services-accordian.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/services-accordians/:id",
+      "handler": "services-accordian.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/services-accordians/:id",
+      "handler": "services-accordian.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

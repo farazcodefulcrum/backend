@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/codefulcrum-in-numbers",
+      "handler": "codefulcrum-in-numbers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/codefulcrum-in-numbers/count",
+      "handler": "codefulcrum-in-numbers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/codefulcrum-in-numbers/:id",
+      "handler": "codefulcrum-in-numbers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/codefulcrum-in-numbers",
+      "handler": "codefulcrum-in-numbers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/codefulcrum-in-numbers/:id",
+      "handler": "codefulcrum-in-numbers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/codefulcrum-in-numbers/:id",
+      "handler": "codefulcrum-in-numbers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

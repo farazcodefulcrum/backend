@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-design-tabs",
+      "handler": "product-design-tabs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-tabs/count",
+      "handler": "product-design-tabs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-tabs/:id",
+      "handler": "product-design-tabs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-design-tabs",
+      "handler": "product-design-tabs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-design-tabs/:id",
+      "handler": "product-design-tabs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-design-tabs/:id",
+      "handler": "product-design-tabs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_delivery_processes",
+  "info": {
+    "name": "ServicesDeliveryProcess"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "AccordianData": {
+      "type": "json"
+    }
+  }
+}

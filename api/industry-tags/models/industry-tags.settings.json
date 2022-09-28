@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "industry_tags",
+  "info": {
+    "name": "IndustryTag",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tags": {
+      "type": "json"
+    }
+  }
+}

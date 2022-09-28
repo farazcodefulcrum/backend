@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_design_tabs",
+  "info": {
+    "name": "ProductDesignTabs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "string"
+    },
+    "ContentPoints": {
+      "type": "json"
+    }
+  }
+}

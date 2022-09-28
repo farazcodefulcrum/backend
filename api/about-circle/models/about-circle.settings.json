@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_circles",
+  "info": {
+    "name": "aboutCircle",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "names": {
+      "type": "json"
+    },
+    "values": {
+      "type": "json"
+    }
+  }
+}

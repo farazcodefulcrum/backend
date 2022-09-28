@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/industry-tags",
+      "handler": "industry-tags.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/industry-tags",
+      "handler": "industry-tags.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/industry-tags",
+      "handler": "industry-tags.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

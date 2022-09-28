@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_software_bussinesses",
+  "info": {
+    "name": "CustomSoftwareBussiness"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "SubText": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "json"
+    }
+  }
+}

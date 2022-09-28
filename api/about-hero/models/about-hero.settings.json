@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_heroes",
+  "info": {
+    "name": "AboutHero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-section"
+    }
+  }
+}

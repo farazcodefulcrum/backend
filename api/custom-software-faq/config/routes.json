@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/custom-software-faqs",
+      "handler": "custom-software-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-faqs/count",
+      "handler": "custom-software-faq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-faqs/:id",
+      "handler": "custom-software-faq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/custom-software-faqs",
+      "handler": "custom-software-faq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/custom-software-faqs/:id",
+      "handler": "custom-software-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/custom-software-faqs/:id",
+      "handler": "custom-software-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

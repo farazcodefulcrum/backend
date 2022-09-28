@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-design-faqs",
+      "handler": "product-design-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-faqs/count",
+      "handler": "product-design-faq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-faqs/:id",
+      "handler": "product-design-faq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-design-faqs",
+      "handler": "product-design-faq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-design-faqs/:id",
+      "handler": "product-design-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-design-faqs/:id",
+      "handler": "product-design-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

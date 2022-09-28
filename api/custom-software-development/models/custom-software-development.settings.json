@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_software_developments",
+  "info": {
+    "name": "CustomSoftwareDevelopment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "json"
+    }
+  }
+}

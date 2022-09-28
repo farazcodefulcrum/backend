@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/custom-software-bussinesses",
+      "handler": "custom-software-bussiness.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-bussinesses/count",
+      "handler": "custom-software-bussiness.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom-software-bussinesses/:id",
+      "handler": "custom-software-bussiness.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/custom-software-bussinesses",
+      "handler": "custom-software-bussiness.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/custom-software-bussinesses/:id",
+      "handler": "custom-software-bussiness.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/custom-software-bussinesses/:id",
+      "handler": "custom-software-bussiness.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

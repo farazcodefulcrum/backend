@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_software_cards",
+  "info": {
+    "name": "CustomSoftwareCards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "json"
+    }
+  }
+}

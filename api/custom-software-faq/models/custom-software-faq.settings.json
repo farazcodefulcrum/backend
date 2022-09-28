@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custom_software_faqs",
+  "info": {
+    "name": "CustomSoftwareFAQ",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.fa-qs"
+    }
+  }
+}

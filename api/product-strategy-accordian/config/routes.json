@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-strategy-accordians",
+      "handler": "product-strategy-accordian.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-accordians/count",
+      "handler": "product-strategy-accordian.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-accordians/:id",
+      "handler": "product-strategy-accordian.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-strategy-accordians",
+      "handler": "product-strategy-accordian.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-strategy-accordians/:id",
+      "handler": "product-strategy-accordian.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-strategy-accordians/:id",
+      "handler": "product-strategy-accordian.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

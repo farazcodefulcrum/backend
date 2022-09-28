@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_partner_withuses",
+  "info": {
+    "name": "HomePartnerWith",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "json"
+    }
+  }
+}

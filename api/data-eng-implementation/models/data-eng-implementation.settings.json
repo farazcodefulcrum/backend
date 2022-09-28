@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_eng_implementations",
+  "info": {
+    "name": "DataEngImplementation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "json"
+    }
+  }
+}

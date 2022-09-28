@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-strategy-what-we-covers",
+      "handler": "product-strategy-what-we-cover.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-what-we-covers/count",
+      "handler": "product-strategy-what-we-cover.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-strategy-what-we-covers/:id",
+      "handler": "product-strategy-what-we-cover.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-strategy-what-we-covers",
+      "handler": "product-strategy-what-we-cover.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-strategy-what-we-covers/:id",
+      "handler": "product-strategy-what-we-cover.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-strategy-what-we-covers/:id",
+      "handler": "product-strategy-what-we-cover.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

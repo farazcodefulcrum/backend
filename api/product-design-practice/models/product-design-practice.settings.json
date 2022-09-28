@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_design_practices",
+  "info": {
+    "name": "ProductDesignPractice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SubHeader": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content-column"
+    }
+  }
+}

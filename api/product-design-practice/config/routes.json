@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/product-design-practices",
+      "handler": "product-design-practice.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-practices/count",
+      "handler": "product-design-practice.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/product-design-practices/:id",
+      "handler": "product-design-practice.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/product-design-practices",
+      "handler": "product-design-practice.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/product-design-practices/:id",
+      "handler": "product-design-practice.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/product-design-practices/:id",
+      "handler": "product-design-practice.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_core_values",
+  "info": {
+    "name": "AboutCoreValues"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "json"
+    }
+  }
+}
