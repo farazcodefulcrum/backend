@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: "https://codefulcrum-strapi.herokuapp.com",
+  url: env("MY_HEROKU_URL"),
 });
